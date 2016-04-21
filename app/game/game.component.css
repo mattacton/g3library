@@ -1,0 +1,25 @@
+div#gameContainer {
+	border: thin solid slategray;
+	display: inline-block;
+	height: 233px;
+}
+
+h3 {
+	text-align: center;
+	padding-top: .25em;
+	margin-bottom: 0em;
+}
+
+.game-info {
+	background-color: gainsboro;
+}
+
+fieldset {
+	border-style: none;
+	text-align: center;
+	margin-left: .5em;
+}
+
+fieldset span {
+	color: goldenrod;
+}
