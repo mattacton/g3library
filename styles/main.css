@@ -1,0 +1,46 @@
+body {
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #304352 , #828689); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #304352 , #828689); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 0px;
+}
+
+.header {
+	height: 70px;
+	width: 100%;
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #304352 , #828689); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #304352 , #828689); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: #1B242B 0px 10px 10px 0px;
+	
+}
+
+.content {
+	width: 100%;
+}
+.logo {
+	padding-left: 1.5em;
+}
+
+.logo > span:nth-child(1) {
+	color: white;
+	font-size: 3em;
+	font-family: 'Abril Fatface', cursive;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.logo > span:nth-child(2) {
+	font-size: 2.5em;
+	font-family: 'Vollkorn', serif;
+	position: relative;
+	top: -1px;
+	left: -9px;
+	color: #222222;
+}
+
+.app-title {
+	font-size: 2.5em;
+	color: white;
+}

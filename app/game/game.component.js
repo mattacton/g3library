@@ -25,7 +25,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 }
                 GameComponent = __decorate([
                     core_1.Component({
-                        selector: 'game-summary',
+                        selector: 'game-icon',
                         templateUrl: 'app/game/game.component.html',
                         styleUrls: ['app/game/game.component.css']
                     }), 
