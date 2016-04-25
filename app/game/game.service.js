@@ -1,4 +1,4 @@
-System.register(['angular2/core', './game'], function(exports_1, context_1) {
+System.register(['angular2/core', './mock-games'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,36 +10,31 @@ System.register(['angular2/core', './game'], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, game_1;
-    var GameComponent;
+    var core_1, mock_games_1;
+    var GameService;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (game_1_1) {
-                game_1 = game_1_1;
+            function (mock_games_1_1) {
+                mock_games_1 = mock_games_1_1;
             }],
         execute: function() {
-            GameComponent = (function () {
-                function GameComponent() {
+            GameService = (function () {
+                function GameService() {
                 }
-                __decorate([
-                    core_1.Input(), 
-                    __metadata('design:type', game_1.Game)
-                ], GameComponent.prototype, "game", void 0);
-                GameComponent = __decorate([
-                    core_1.Component({
-                        selector: 'game-icon',
-                        templateUrl: 'app/game/game.component.html',
-                        styleUrls: ['app/game/game.component.css']
-                    }), 
+                GameService.prototype.getGames = function () {
+                    return Promise.resolve(mock_games_1.GAMES);
+                };
+                GameService = __decorate([
+                    core_1.Injectable(), 
                     __metadata('design:paramtypes', [])
-                ], GameComponent);
-                return GameComponent;
+                ], GameService);
+                return GameService;
             }());
-            exports_1("GameComponent", GameComponent);
+            exports_1("GameService", GameService);
         }
     }
 });
-//# sourceMappingURL=game.component.js.map
+//# sourceMappingURL=game.service.js.map

@@ -1,0 +1,21 @@
+.logo {
+	padding-left: 1.5em;
+}
+
+.logo > span:nth-child(1) {
+	color: white;
+	font-size: 3em;
+	font-family: 'Abril Fatface', cursive;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.logo > span:nth-child(2) {
+	font-size: 2.5em;
+	font-family: 'Vollkorn', serif;
+	position: relative;
+	top: -1px;
+	left: -9px;
+	color: #222222;
+}

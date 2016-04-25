@@ -1,6 +1,31 @@
 .app-container {
 	width: 80%;
 	margin-left: auto;
-	margin-right: auto;
+	//margin-right: auto;
 	margin-top: 3em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header {
+	height: 70px;
+	width: 100%;
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #304352 , #828689); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #304352 , #828689); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: #1B242B 0px 10px 10px 0px;
+	
+}
+
+game-icon {
+	display: flex;
+}
+
+.content {
+	width: 100%;
+}
+
+.app-title {
+	font-size: 2.5em;
+	color: white;
 }

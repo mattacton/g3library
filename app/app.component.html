@@ -1,3 +1,8 @@
-<div class="app-container">
-	<game-icon></game-icon> 
+<div class="header">
+    <logo></logo><span class="app-title">Library</span>
+</div>
+<div class="content">
+	<div class="app-container">
+		<game-icon *ngFor="#game of games" [game]="game"></game-icon> 
+	</div>
 </div>

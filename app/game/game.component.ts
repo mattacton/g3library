@@ -1,4 +1,5 @@
-import {Component} from 'angular2/core';
+import {Component, Input} from 'angular2/core';
+import {Game} from './game';
 
 @Component({
 	selector: 'game-icon',
@@ -6,6 +7,5 @@ import {Component} from 'angular2/core';
 	styleUrls: ['app/game/game.component.css']
 })
 export class GameComponent {
-	private name = "Time Stories";
-	private whom = "Matt A.";
+	@Input() game: Game;
 }
